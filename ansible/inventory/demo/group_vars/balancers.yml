@@ -1,6 +1,6 @@
 server_name: news-app-demo
-access_log: /var/log/nginx/access-rsa.log main
-error_log: /var/log/nginx/error-rsa.log warn
+access_log: /var/log/nginx/access.log main
+error_log: /var/log/nginx/error.log warn
 exclude_node: nothing
 
 nginx_official_repo_mainline: true

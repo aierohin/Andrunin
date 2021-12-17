@@ -1,5 +1,5 @@
-app_user: e11r
-app_group: e11r
+app_user: newsapp
+app_group: newsapp
 keep_releases: 3
 service: "{{ lookup('env','SERVICE') }}"
 app_version: "{{ lookup('env','APP_VERSION') }}"

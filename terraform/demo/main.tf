@@ -27,10 +27,10 @@ module "news" {
   instance_role = "news,balancer"
   users         = "centos"
   cores         = "2"
-  boot_disk     = "network-hdd"
+  boot_disk     = "network-ssd"
   disk_size     = "20"
   nat           = "true"
   memory        = "2"
-  core_fraction = "50"
+  core_fraction = "100"
 }
 

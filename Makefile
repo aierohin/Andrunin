@@ -1,4 +1,7 @@
-all: plan apply deploy
+all: init plan apply deploy
+
+init:
+	cd ./terraform/demo && terraform init
 
 plan:
 	cd ./terraform/demo && terraform plan
