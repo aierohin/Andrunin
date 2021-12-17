@@ -17,3 +17,6 @@ clean:
 
 deploy:
 	cd ./ansible && source .env.news-app && ansible-playbook -i inventory/demo site.yml
+
+reconfig:
+	cd ./ansible && source .env.news-app && ansible-playbook -i inventory/demo site.yml -t config
